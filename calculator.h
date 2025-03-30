@@ -9,6 +9,8 @@ private:
       int y;
 public: 
       Calculator(int x, int y);
+      int getX();
+      int getY();
       int addNums(int x, int y);
       int subtractNums(int x, int y);
       int multiplyNums(int x, int y);
