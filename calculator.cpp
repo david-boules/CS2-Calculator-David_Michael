@@ -32,6 +32,9 @@ int Calculator::gcd(int x, int y)
 }
 int Calculator::lcm(int x, int y)
 {
+    if (x == 0 || y == 0)
+        return 0;
+    return (x * y) / gcd(x, y);
 }
 int Calculator::factorial(int x)
 {
@@ -42,4 +45,6 @@ int Calculator::factorial(int x)
 }
 int Calculator::random(int rangelim1, int rangelim2)
 {
+    srand(0);
+    return rand() % rangelim2 + rangelim1;
 }
