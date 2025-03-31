@@ -43,6 +43,6 @@ int main()
 
     // Testing random
     cout << "Random number generated beteween " << MyCalc.getX() << " and " << MyCalc.getY() << ": " << MyCalc.random(x,y) << endl;
-    
+
     return 0;
 }

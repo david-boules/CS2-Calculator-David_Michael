@@ -36,7 +36,13 @@ int Calculator::multiplyNums(int x, int y)
 //division of two numbers:
 float Calculator::divideNums(float x, float y)
 {
-    return x / y;
+    if(y==0.0){
+        cout << "Error! Cannot divide by 0." << endl;
+        exit(1); //just like in a normal calculator, the session must restart if division by zero is attempted
+    }
+    else{
+        return x / y;
+    }
 }
 
 //factorial calculation:
