@@ -59,16 +59,17 @@ You will see a list of operations (1-8) to choose from. Just input the correspon
 
 The calculator supports the following operations:
 
-| Operation | Description                         | Input Type   |
-|-----------|-------------------------------------|--------------|
-| 1         | Addition                            | Two integers |
-| 2         | Subtraction                         | Two integers |
-| 3         | Multiplication                      | Two integers |
-| 4         | Division                            | Two floats   |
-| 5         | Factorial                           | One integer  |
-| 6         | Greatest Common Divisor (GCD)       | Two integers |
-| 7         | Least Common Multiple (LCM)         | Two integers |
-| 8         | Random Number (within a range)      | Two integers |
+| Operation | Description                         | Input Type        |
+|-----------|-------------------------------------|-------------------|
+| 1         | Addition                            | Two integers      |
+| 2         | Subtraction                         | Two integers      |
+| 3         | Multiplication                      | Two integers      |
+| 4         | Division                            | Two floats        |
+| 5         | Factorial                           | One integer       |
+| 6         | Greatest Common Divisor (GCD)       | Two integers      |
+| 7         | Least Common Multiple (LCM)         | Two integers      |
+| 8         | Random Number (within a range)      | Two integers      |
+| 9         | String Expression Evaluation (Bonus)| Multiple integers |
 
 Type `exit` at any time to end the session.
 
