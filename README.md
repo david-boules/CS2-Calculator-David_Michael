@@ -1,4 +1,4 @@
-# CS2 Calculator Library - David & Michael
+# CSCE 1102 - Calculator Library
 
 This mini project is a simple calculator library built in C++ for an assignment for the CSCE 1102 - Fundamentals of Computing II Lab course. It supports a variety of mathematical operations, including arithmetic, factorial, GCD, LCM, and random number generation.
 
