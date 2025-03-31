@@ -13,35 +13,37 @@ The goal of this mini project is to showcase understanding and practical usage o
 - `test.cpp`: A tester program that showcases all functionalities
 - `CMakeLists.txt`: CMake configuration for building the project
 
-  ## How to Build and Run
+## How to Build and Run
 
-  You have two options:
+You have two options:
 
-  ### 1. Using CMake
-  (This step assumes you have cmake and make installed, created a `CMakeLists.txt` file defined with the necessary source files and you have named the executable file appropriately)
-  In your terminal, navigate to the directory where the source files are located and run the following commands:
+### 1. Using CMake
+(This step assumes you have cmake and make installed, created a `CMakeLists.txt` file defined with the necessary source files and you have named the executable file appropriately)
+
+In your terminal, navigate to the directory where the source files are located and run the following commands:
   
-  ```bash
-  mkdir build
-  cd build
-  cmake ..
-  make
-  ```
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
 
-  To run the program:
-  ```bash
-  ./calc
-  ```
-  (calc is the name of the executable file in this instance)
+To run the program:
+```bash
+./calc
+```
+(calc is the name of the executable file in this instance)
 
-  ### 2. Using g++
-  (Make sure you have g++ installed)
-  In your terminal, navigate to the directory where the source files are located and run the following commands:
+### 2. Using g++
+(Make sure you have g++ installed)
 
-  ```bash
-  g++ calculator.cpp main.cpp -o calc
-  ```
-  (replace `main.cpp` with `test.cpp` if you wish to run the test file instead)
+In your terminal, navigate to the directory where the source files are located and run the following commands:
+
+```bash
+g++ calculator.cpp main.cpp -o calc
+```
+(replace `main.cpp` with `test.cpp` if you wish to run the test file instead)
 
   To run the program:
   ```bash
@@ -54,6 +56,7 @@ You will be prompted to input two numbers, and the test file will run through al
 
 ### `main.cpp`
 You will see a list of operations (1-8) to choose from. Just input the corresponding number and then you will be asked to input the numbers for said calculation
+
 The calculator supports the following operations:
 
 | Operation | Description                         | Input Type   |
