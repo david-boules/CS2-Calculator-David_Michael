@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Calc.dir/calculator.cpp.o CMakeFiles/Calc.dir/test.cpp.o -o Calc
