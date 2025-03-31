@@ -7,7 +7,7 @@ int main()
 {
     cout << "Please Enter Two Numbers to get Started " << endl;
     cout << endl;
-    
+
     cout << "Enter the First Number: ";
     int x;
     cin >> x;
@@ -17,32 +17,34 @@ int main()
     int y;
     cin >> y;
     cout << endl;
-    
-    Calculator MyCalc(x,y);
+
+    Calculator MyCalc(x, y);
 
     // Testing addNums
-    cout << MyCalc.getX() << "+" << MyCalc.getY() << "=" << MyCalc.addNums(x,y) << endl;
+    cout << MyCalc.getX() << "+" << MyCalc.getY() << "=" << MyCalc.addNums(x, y) << endl;
 
     // Testing subtractNums
-    cout << MyCalc.getX() << "-" << MyCalc.getY() << "=" << MyCalc.subtractNums(x,y) << endl;
+    cout << MyCalc.getX() << "-" << MyCalc.getY() << "=" << MyCalc.subtractNums(x, y) << endl;
 
     // Testing multiplyNums
-    cout << MyCalc.getX() << "*" << MyCalc.getY() << "=" << MyCalc.multiplyNums(x,y) << endl;
+    cout << MyCalc.getX() << "*" << MyCalc.getY() << "=" << MyCalc.multiplyNums(x, y) << endl;
 
     // Testing divideNums
-    cout << MyCalc.getX() << "÷" << MyCalc.getY() << "=" << MyCalc.divideNums(x,y) << endl;
+    cout << MyCalc.getX() << "÷" << MyCalc.getY() << "=" << MyCalc.divideNums(x, y) << endl;
 
-    //Testing factorial
+    // Testing factorial
     cout << "5! = " << MyCalc.factorial(5) << endl;
 
     // Testing gcd
-    cout << "The GCD of " << MyCalc.getX() << " and " << MyCalc.getY() << " is " << MyCalc.gcd(x,y) << endl;
+    cout << "The GCD of " << MyCalc.getX() << " and " << MyCalc.getY() << " is " << MyCalc.gcd(x, y) << endl;
 
     // Testing lcm
-    cout << "The LCM of " << MyCalc.getX() << " and " << MyCalc.getY() << " is " << MyCalc.lcm(x,y) << endl;
+    cout << "The LCM of " << MyCalc.getX() << " and " << MyCalc.getY() << " is " << MyCalc.lcm(x, y) << endl;
 
     // Testing random
-    cout << "Random number generated beteween " << MyCalc.getX() << " and " << MyCalc.getY() << ": " << MyCalc.random(x,y) << endl;
-
+    cout << "Random number generated beteween " << MyCalc.getX() << " and " << MyCalc.getY() << ": " << MyCalc.random(x, y) << endl;
+    // Testing shanting yard algorithm
+    string expression = "(2 + 3) * 10";
+    cout << "The result of the expression (2+3)*10 is: " << MyCalc.algorithm(expression) << endl;
     return 0;
 }

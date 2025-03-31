@@ -1,13 +1,15 @@
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
 #include <iostream>
+#include <string>
 using namespace std;
-class Calculator 
+class Calculator
 {
 private:
-      int x; 
+      int x;
       int y;
-public: 
+
+public:
       Calculator(int x, int y);
       int getX();
       int getY();
@@ -18,6 +20,7 @@ public:
       int factorial(int x);
       int gcd(int x, int y);
       int lcm(int x, int y);
-      int random(int rangelim1,int rangelim2);
+      int random(int rangelim1, int rangelim2);
+      int algorithm(string tokens);
 };
 #endif
