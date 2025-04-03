@@ -55,7 +55,7 @@ g++ calculator.cpp main.cpp -o calc
 You will be prompted to input two numbers, and the test file will run through all the available calculator operations on those two numbers (with the exception of the factorial operation, since large numbers may cause the program to crash)
 
 ### `main.cpp`
-You will see a list of operations (1-8) to choose from. Just input the corresponding number and then you will be asked to input the numbers for said calculation
+You will see a list of operations (1-9) to choose from. For operations 1-8, just input the corresponding number in the table below and then you will be asked to input the numbers for said calculation. For 'operation 9' ('string expression evaluation') you simply type out the expression you would like to evaluate, such as: 3 + 4 * (2-1) / 5, and it will be evaluated.
 
 The calculator supports the following operations:
 
@@ -69,7 +69,7 @@ The calculator supports the following operations:
 | 6         | Greatest Common Divisor (GCD)       | Two integers      |
 | 7         | Least Common Multiple (LCM)         | Two integers      |
 | 8         | Random Number (within a range)      | Two integers      |
-| 9         | String Expression Evaluation (Bonus)| Multiple integers |
+| 9         | String Expression Evaluation (Bonus)| Mathematical expression |
 
 Type `exit` at any time to end the session.
 
