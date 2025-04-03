@@ -43,8 +43,10 @@ int main()
 
     // Testing random
     cout << "Random number generated beteween " << MyCalc.getX() << " and " << MyCalc.getY() << ": " << MyCalc.random(x, y) << endl;
-    // Testing shanting yard algorithm
+    
+    // Testing Shunting Yard Algorithm
     string expression = "(2 + 3) * 10";
-    cout << "The result of the expression (2+3)*10 is: " << MyCalc.algorithm(expression) << endl;
+    cout << "The result of the expression (2 + 3) * 10 is: " << MyCalc.algorithm(expression) << endl;
+    
     return 0;
 }
